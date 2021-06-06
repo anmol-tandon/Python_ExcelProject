@@ -1,7 +1,17 @@
 # Python Mini Project
 
 
-## Entering Data
+## Entering input
+
+
+## Output shown in excel file named Final Output
+
+
+## Code Quality using pylint
+
+
+
+
 
 
 
