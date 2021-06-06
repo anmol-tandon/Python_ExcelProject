@@ -1,6 +1,11 @@
 # Python Mini Project
 
 
+## Entering Data
+
+
+
+
 
 ## Run on your PC 
 
