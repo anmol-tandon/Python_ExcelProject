@@ -1,5 +1,6 @@
 # Python Mini Project
 
+## Video showing working of project is available at Recording folder
 
 ## Entering input
 
