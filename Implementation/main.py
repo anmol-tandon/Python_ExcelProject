@@ -1,4 +1,5 @@
 import openpyxl
+from openpyxl import Workbook
 
 w_book = openpyxl.load_workbook("RandomData.xlsx")
 sheets = w_book.sheetnames
@@ -75,17 +76,14 @@ elif ps_no == '99004366':
 else:
     print("Wrong input")
 data = sh[block].value
-#print(data)
+# print(data)
 
-from openpyxl import Workbook
 w_book2 = Workbook()
 
 w_book2['Sheet'].title = "Final Data"
 sheet = w_book2.active
 sheet['A1'].value = "Pay Sheet Number"
 sheet['A2'].value = ps_no
-
-
 
 if category == 'Marks':
     sheet['B1'].value = "Marks"
@@ -101,6 +99,4 @@ else:
     print("Wrong input \n")
 
 sheet['B2'].value = data
-
-
 w_book2.save("Final Output.xlsx")
