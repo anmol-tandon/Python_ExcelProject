@@ -1,3 +1,6 @@
+'''
+# Used openpyxl module to read and write excel files
+'''
 import openpyxl
 from openpyxl import Workbook
 
@@ -44,38 +47,38 @@ elif category == 'Domain':
 else:
     print("Wrong input")
 if ps_no == '99004319':
-    block = 'B2'
+    BLOCK = 'B2'
 elif ps_no == '99004320':
-    block = 'B3'
+    BLOCK = 'B3'
 elif ps_no == '99004322':
-    block = 'B4'
+    BLOCK = 'B4'
 elif ps_no == '99004324':
-    block = 'B5'
+    BLOCK = 'B5'
 elif ps_no == '99004356':
-    block = 'B6'
+    BLOCK = 'B6'
 elif ps_no == '99004357':
-    block = 'B7'
+    BLOCK = 'B7'
 elif ps_no == '99004358':
-    block = 'B8'
+    BLOCK = 'B8'
 elif ps_no == '99004359':
-    block = 'B9'
+    BLOCK = 'B9'
 elif ps_no == '99004360':
-    block = 'B10'
+    BLOCK = 'B10'
 elif ps_no == '99004361':
-    block = 'B11'
+    BLOCK = 'B11'
 elif ps_no == '99004362':
-    block = 'B12'
+    BLOCK = 'B12'
 elif ps_no == '99004363':
-    block = 'B13'
+    BLOCK = 'B13'
 elif ps_no == '99004364':
-    block = 'B14'
+    BLOCK = 'B14'
 elif ps_no == '99004365':
-    block = 'B15'
+    BLOCK = 'B15'
 elif ps_no == '99004366':
-    block = 'B16'
+    BLOCK = 'B16'
 else:
     print("Wrong input")
-data = sh[block].value
+data = sh[BLOCK].value
 # print(data)
 
 w_book2 = Workbook()
