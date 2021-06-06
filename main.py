@@ -75,7 +75,7 @@ elif ps_no == '99004366':
 else:
     print("Wrong input")
 data = sh[block].value
-print(data)
+#print(data)
 
 from openpyxl import Workbook
 w_book2 = Workbook()
