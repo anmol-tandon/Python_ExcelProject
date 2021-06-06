@@ -16,7 +16,7 @@
 ![Pylint_code_quality](https://user-images.githubusercontent.com/75445117/120941712-c6615000-c741-11eb-94e0-8c6059f9c1fc.png)
 
 
-## Run on your PC 
+## To run project on your PC 
 
 ### What Will You Build
 You will be allowed to choose PS_NO and Category for which you want to fetch data and as output new excel file be created with the requested data.
