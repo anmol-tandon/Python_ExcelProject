@@ -18,17 +18,22 @@
 
 ### When user selecting Marks
 
-
+![OutputForMarks](https://user-images.githubusercontent.com/75445117/120942167-aaab7900-c744-11eb-9099-fc61e936fa9a.png)
 
 ### When user selecting Hobbies
 
+![OutputForHobby](https://user-images.githubusercontent.com/75445117/120942174-bdbe4900-c744-11eb-84a0-98067544317d.png)
 
 
 ### When user selecting Cities
 
+![OutputForCities](https://user-images.githubusercontent.com/75445117/120942176-c4e55700-c744-11eb-97b2-927a0c7bf6d9.png)
 
 
-### When user selecting anguages
+### When user selecting Languages
+
+![OutputForLanguages](https://user-images.githubusercontent.com/75445117/120942179-cf075580-c744-11eb-96db-1f4bbf0b5cf8.png)
+
 
 
 
