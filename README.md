@@ -1,4 +1,4 @@
-# Advance Python Mini Project by Anmol Tandon_99004353
+# Python Mini Project by Anmol Tandon
 
 ## Video showing working of project is available at Recording folder
 
